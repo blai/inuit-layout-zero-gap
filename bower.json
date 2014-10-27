@@ -1,0 +1,19 @@
+{
+  "name": "inuit-layout-zero-gap",
+  "version": "0.0.1",
+  "authors": [
+    "Brian Lai <brian.lai.ym@gmail.com>"
+  ],
+  "description": "Inuit module that fixes grid gap when using .layout",
+  "main": "_objects.layout-zero-gap.scss",
+  "keywords": [
+    "inuit"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

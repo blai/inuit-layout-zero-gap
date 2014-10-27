@@ -1,0 +1,7 @@
+.zero-gap > .layout__item {
+  margin-right: -1em;
+}
+
+.zero-gap > .layout__item:last-child {
+  margin-right: 0;
+}
