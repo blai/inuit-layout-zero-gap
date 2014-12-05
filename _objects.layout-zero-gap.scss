@@ -1,7 +1,17 @@
-.zero-gap > .layout__item {
-  margin-right: -0.25rem;
+.zero-gap {
+  letter-spacing: -.2rem;
 }
 
-.zero-gap > .layout__item:last-child {
-  margin-right: 0;
+.zero-gap > .layout__item {
+  letter-spacing: normal;
+}
+
+@-moz-document url-prefix() {
+  .zero-gap {
+    word-spacing: -.2rem;
+  }
+
+  .zero-gap > .layout__item {
+    word-spacing: normal;
+  }
 }
